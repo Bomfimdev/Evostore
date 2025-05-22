@@ -18,7 +18,7 @@ EvoStore is an advanced e-commerce platform tailored for the purchase and manage
 ```
 .
 ├── README.md                    # Project overview and setup instructions
-├── evostore-backend             # Backend source code
+├── backend                    # Backend source code
 │   ├── pom.xml                  # Maven configuration file
 │   ├── src/main/java/com/evostore
 │   │   ├── EvoStoreApplication.java  # Main application entry point
@@ -42,7 +42,7 @@ EvoStore is an advanced e-commerce platform tailored for the purchase and manage
 │   │       └── SessionService.java     # Business logic for sessions
 │   └── src/main/resources
 │       └── application.properties     # Application configuration
-└── react_template                 # Frontend source code
+└── frontend                     # Frontend source code
     ├── README.md                    # Frontend project overview
     ├── eslint.config.js              # ESLint configuration
     ├── index.html                    # Main HTML file
@@ -104,9 +104,9 @@ EvoStore is an advanced e-commerce platform tailored for the purchase and manage
 
 # Usage
 1. **Install Dependencies**:
-   - For the backend, run `mvn install` in the `evostore-backend` directory.
-   - For the frontend, run `pnpm install` in the `react_template` directory, including any additional dependencies such as `react-router-dom` and `axios`.
+   - For the backend, run `mvn install` in the `backend` directory.
+   - For the frontend, run `pnpm install` in the `frontend` directory, including any additional dependencies such as `react-router-dom` and `axios`.
 
 2. **Build and Run**:
-   - Start the backend by running `mvn spring-boot:run` in the `evostore-backend` directory.
-   - Start the frontend by running `pnpm run dev` in the `react_template` directory.
+   - Start the backend by running `mvn spring-boot:run` in the `backend` directory.
+   - Start the frontend by running `pnpm run dev` in the `frontend` directory.

@@ -6,8 +6,8 @@ Este projeto é uma aplicação completa de e-commerce chamada EvoStore, desenvo
 
 O projeto está dividido em duas partes principais:
 
-- **Frontend**: Desenvolvido em React.js, localizado em `/react_template`
-- **Backend**: Desenvolvido em Spring Boot, localizado em `/evostore-backend`
+- **Frontend**: Desenvolvido em React.js, localizado em `/frontend`
+- **Backend**: Desenvolvido em Spring Boot, localizado em `/backend`
 
 ## Tecnologias Utilizadas
 

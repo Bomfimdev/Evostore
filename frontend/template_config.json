@@ -10,6 +10,6 @@
   ],
   "lang": "JavaScript",
   "framework": "React",
-  "style": "react_template",
+  "style": "frontend",
   "scene": "default_web_project"
 }
