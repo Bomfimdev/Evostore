@@ -28,7 +28,7 @@ O projeto está dividido em duas partes principais:
 ## Executando o Projeto
 
 ### Requisitos
-- Node.js 16+ e npm/pnpm
+- Node.js 16+
 - Java 11+
 - Maven
 
