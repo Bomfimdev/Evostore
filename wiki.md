@@ -1,36 +1,61 @@
-# Project Summary
-EvoStore is an innovative e-commerce platform specializing in the sale of digital product keys. It features a user-friendly interface built with React on the frontend and a secure backend powered by Spring Boot. The project focuses on enhancing user experience, ensuring robust security through JWT authentication, and maintaining a well-organized codebase for easier updates and scalability.
+Project Summary
+EvoStore is a comprehensive e-commerce platform designed for managing and selling digital product keys. It features a modern and responsive user interface built with React.js for the frontend, paired with a secure and efficient backend developed using Spring Boot. The system aims to provide a seamless experience for both customers and administrators, offering functionalities such as key management, secure authentication, and real-time inventory tracking.
 
-# Project Module Description
-The EvoStore project includes the following functional modules:
-1. **Authentication and Admin Panel**: Implements JWT-based authentication and an admin dashboard for user management and analytics.
-2. **User Experience Improvements**: Enhancements to the UI with a new color palette and redesigned product cards.
-3. **Code Organization**: Recommendations for modular file structure and implementation of protected routes.
-4. **Phased Implementation Plan**: A structured approach to rolling out improvements in defined phases.
+Project Module Description
+The EvoStore project consists of two main modules:
 
-# Directory Tree
-```
-Evostore/
-├── frontend/                                  # Contains the React frontend application
-├── backend/                                   # Contains the Spring Boot backend application
-├── evostore_implementation_recommendations.md  # Comprehensive implementation recommendations report
-└── evostore_implementation_report.md            # Summary of improvement suggestions and outcomes
-```
+Frontend: Developed with React.js, it provides a user-friendly interface for browsing products, managing keys, and handling purchases.
+Backend: Built with Spring Boot, it serves as a RESTful API for managing product keys and sessions, ensuring secure data operations and user authentication.
+Directory Tree
+EvoStore/
+├── frontend/                # React frontend application
+│   ├── src/                # Source code for frontend
+│   │   ├── components/     # Reusable React components
+│   │   ├── pages/          # Page components
+│   │   ├── services/       # API services
+│   │   └── data/           # Static data and configurations
+│   └── public/             # Static assets
+└── backend/                # Spring Boot backend application
+    ├── src/                # Source code for backend
+    │   └── main/java/com/evostore/
+    │       ├── config/     # Configuration files
+    │       ├── controller/ # REST controllers
+    │       ├── model/      # Data models
+    │       ├── repository/  # Data access layer
+    │       └── service/    # Business logic
+    └── pom.xml             # Backend dependencies
+File Description Inventory
+frontend/: Contains all frontend-related files and directories for the React application.
+backend/: Contains backend source files, including configuration, controllers, models, repositories, and services.
+README.md: High-level overview of the project.
+COMPLETE_DOCUMENTATION.md: Comprehensive documentation covering both frontend and backend.
+BACKEND_DOCUMENTATION.md: Detailed documentation for the backend implementation.
+FRONTEND_DOCUMENTATION.md: Detailed documentation for the frontend implementation.
+Technology Stack
+Frontend:
 
-# File Description Inventory
-- **frontend/**: Directory containing the React frontend code and assets.
-- **backend/**: Directory containing the Spring Boot backend code and configurations.
-- **evostore_implementation_recommendations.md**: Contains detailed implementation recommendations addressing the improvement report, including code examples and a phased implementation plan.
-- **evostore_implementation_report.md**: Provides a summary of the key suggestions and improvements for the EvoStore project.
+React.js
+Vite (build tool)
+Tailwind CSS (styling)
+Axios (HTTP requests)
+Backend:
 
-# Technology Stack
-- **Frontend**: React
-- **Backend**: Spring Boot
-- **Styling**: Tailwind CSS
-- **Authentication**: JWT (JSON Web Tokens)
-
-# Usage
-To set up the EvoStore project, follow these steps:
-1. **Install Dependencies**: Run the appropriate package manager commands to install all necessary dependencies for both the frontend and backend.
-2. **Build the Project**: Use the build command for the frontend and backend to compile the application.
-3. **Run the Application**: Start the server for both frontend and backend services.
+Spring Boot
+Spring Data JPA
+H2 Database (in-memory)
+Swagger/OpenAPI (API documentation)
+Usage
+Prerequisites
+Node.js 16+
+Java 11+
+Maven
+Installation
+Clone the repository
+Frontend Setup:
+cd frontend
+npm install
+npm run dev
+Backend Setup:
+cd backend
+mvn clean install
+mvn spring-boot:run

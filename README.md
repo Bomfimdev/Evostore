@@ -23,7 +23,19 @@ O projeto está dividido em duas partes principais:
 - Spring Data JPA
 - H2 Database (banco de dados em memória)
 - Lombok
-- Swagger/OpenAPI para documentação da API
+- Swagger/OpenAPI para documentação da 
+
+## Imagens do Projeto
+
+### 1. Documentação da API (Swagger)
+![Swagger API](./docs/swagger_api.png)
+
+### 2. Tela Inicial
+![Tela Inicial](./docs/tela_inicial.png)
+
+### 3. Tela Inicial (Variante)
+![Tela Inicial 2](./docs/tela_inicial2.png)
+
 
 ## Executando o Projeto
 
@@ -86,7 +98,7 @@ O sistema inclui os seguintes produtos:
   - Mensal: R$680
   - Mensal + HB 30 dias: R$876
 
-- **RTPrivate**
+- **RTXPrivate**
   - Mensal: R$1.710
 
 - **Engine Soul**

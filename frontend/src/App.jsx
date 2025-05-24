@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-[#011901] text-white flex flex-col">
+      <div className="min-h-screen bg-[#051005] text-white flex flex-col">
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8">
           <Routes>
@@ -23,9 +23,10 @@ function App() {
             <Route path="/keys" element={<KeyManagement purchasedKeys={purchasedKeys} />} />
           </Routes>
         </main>
-        <footer className="bg-[#011901] border-t border-[#02B045] py-4">
+        <footer className="bg-[#051005] border-t border-[#02B045] py-4">
           <div className="container mx-auto px-4 text-center">
-            <p className="text-gray-300">&copy; {new Date().getFullYear()} EvoStore. Todos os direitos reservados.</p>
+            <p className="text-white">  &copy; {new Date().getFullYear()} Feito por <a href="https://bomfimdev.com" className="text-[#02B045] underline" target="_blank" rel="noopener noreferrer">Bomfimdev</a>. Todos os direitos reservados.</p>
+
           </div>
         </footer>
       </div>

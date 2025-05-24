@@ -33,9 +33,9 @@ export const products = [
     ]
   },
   {
-    id: "rtprivate",
-    name: "RTPrivate",
-    description: "RTPrivate é a solução premium para jogadores que buscam o máximo de segurança e privacidade.",
+    id: "rtxprivate",
+    name: "RTXPrivate",
+    description: "RTXPrivate é a solução premium para jogadores que buscam o máximo de segurança e privacidade.",
     plans: [
       { name: "Mensal", price: 1710 }
     ],

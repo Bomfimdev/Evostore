@@ -2,21 +2,21 @@ import React from 'react';
 import ProductList from '../components/ProductList';
 import { products } from '../data/products';
 
-function Home({ onPurchase }) {
+function Home() {
   return (
     <div className="space-y-12">
       <section className="text-center">
         <h1 className="text-4xl font-bold text-[#02B045] mb-4">Bem-vindo à EvoStore</h1>
-        <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+        <p className="text-xl text-white max-w-3xl mx-auto">
           Seu destino para os melhores softwares de gaming. Encontre os produtos que vão melhorar sua experiência de jogo.
         </p>
       </section>
 
       <section>
-        <ProductList products={products} onPurchase={onPurchase} />
+        <ProductList products={products} />
       </section>
 
-      <section className="bg-[#012b01] p-8 rounded-lg border border-[#02B045]">
+      <section className="bg-[#051005] p-8 rounded-lg border border-[#02B045]">
         <h2 className="text-2xl font-bold text-white mb-4 text-center">Vantagens da EvoStore</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="text-center p-4">
@@ -26,7 +26,7 @@ function Home({ onPurchase }) {
               </svg>
             </div>
             <h3 className="text-xl font-bold text-[#02B045] mb-2">Segurança Garantida</h3>
-            <p className="text-gray-300">Todos os nossos produtos são testados e seguros para uso.</p>
+            <p className="text-white">Todos os nossos produtos são testados e seguros para uso.</p>
           </div>
           <div className="text-center p-4">
             <div className="bg-[#079D3B] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -35,7 +35,7 @@ function Home({ onPurchase }) {
               </svg>
             </div>
             <h3 className="text-xl font-bold text-[#02B045] mb-2">Entrega Instantânea</h3>
-            <p className="text-gray-300">Receba suas keys no momento da compra sem espera.</p>
+            <p className="text-white">Receba suas keys no momento da compra sem espera.</p>
           </div>
           <div className="text-center p-4">
             <div className="bg-[#079D3B] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -44,7 +44,7 @@ function Home({ onPurchase }) {
               </svg>
             </div>
             <h3 className="text-xl font-bold text-[#02B045] mb-2">Suporte 24/7</h3>
-            <p className="text-gray-300">Nossa equipe está sempre disponível para ajudar com qualquer dúvida.</p>
+            <p className="text-white">Nossa equipe está sempre disponível para ajudar com qualquer dúvida.</p>
           </div>
         </div>
       </section>

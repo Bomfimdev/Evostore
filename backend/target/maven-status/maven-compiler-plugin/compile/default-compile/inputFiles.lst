@@ -1,0 +1,12 @@
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\EvoStoreApplication.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\model\Session.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\service\SessionService.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\service\KeyService.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\model\Key.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\controller\SessionController.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\exception\GlobalExceptionHandler.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\dto\ErrorResponse.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\config\WebConfig.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\repository\KeyRepository.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\controller\KeyController.java
+C:\Users\Bomfim\Documents\GitHub\Evostore\backend\src\main\java\com\evostore\repository\SessionRepository.java

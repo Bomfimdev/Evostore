@@ -82,10 +82,10 @@ function ProductDetail({ onPurchase }) {
         Voltar para produtos
       </Link>
 
-      <div className="bg-[#012b01] rounded-lg shadow-lg overflow-hidden border border-[#02B045]">
+      <div className="bg-[#051005] rounded-lg shadow-lg overflow-hidden border border-[#02B045]">
         <div className="p-8">
           <h1 className="text-3xl font-bold text-white mb-4">{product.name}</h1>
-          <p className="text-gray-300 mb-8">{product.description}</p>
+          <p className="text-white mb-8">{product.description}</p>
 
           <div className="mb-8">
             <h2 className="text-xl font-bold text-white mb-4">Selecione um plano</h2>
@@ -97,11 +97,11 @@ function ProductDetail({ onPurchase }) {
                   className={`border rounded-lg p-4 cursor-pointer transition-colors duration-200 ${
                     selectedPlan === plan
                       ? 'bg-[#079D3B] border-[#02B045]'
-                      : 'bg-[#011901] border-[#079D3B] hover:bg-[#012b01]'
+                      : 'bg-[#051005] border-[#079D3B] hover:bg-[#051005]'
                   }`}
                 >
                   <div className="flex justify-between items-center">
-                    <span className="font-medium">{plan.name}</span>
+                    <span className="font-medium text-white">{plan.name}</span>
                     <span className="text-[#02B045] font-bold">
                       R$ {plan.price.toFixed(2).replace('.', ',')}
                     </span>
@@ -112,12 +112,12 @@ function ProductDetail({ onPurchase }) {
           </div>
 
           {selectedPlan && (
-            <div className="bg-[#011901] p-6 rounded-lg border border-[#079D3B] mb-8">
+            <div className="bg-[#051005] p-6 rounded-lg border border-[#079D3B] mb-8">
               <h3 className="text-lg font-bold text-white mb-2">Detalhes do plano</h3>
               <div className="flex flex-col md:flex-row md:justify-between">
                 <div>
-                  <p className="text-gray-300">Plano selecionado: <span className="text-white">{selectedPlan.name}</span></p>
-                  <p className="text-gray-300">Valor: <span className="text-[#02B045] font-bold">R$ {selectedPlan.price.toFixed(2).replace('.', ',')}</span></p>
+                  <p className="text-white">Plano selecionado: <span className="text-white font-bold">{selectedPlan.name}</span></p>
+                  <p className="text-white">Valor: <span className="text-[#02B045] font-bold">R$ {selectedPlan.price.toFixed(2).replace('.', ',')}</span></p>
                 </div>
                 <button
                   onClick={handlePurchase}
@@ -129,7 +129,7 @@ function ProductDetail({ onPurchase }) {
             </div>
           )}
 
-          <div className="bg-[#011901] p-6 rounded-lg border border-[#079D3B]">
+          <div className="bg-[#051005] p-6 rounded-lg border border-[#079D3B]">
             <h3 className="text-lg font-bold text-white mb-4">Características</h3>
             <ul className="space-y-2">
               {product.features.map((feature, index) => (
@@ -137,7 +137,7 @@ function ProductDetail({ onPurchase }) {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#02B045] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-gray-300">{feature}</span>
+                  <span className="text-white">{feature}</span>
                 </li>
               ))}
             </ul>
